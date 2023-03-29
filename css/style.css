@@ -1,0 +1,89 @@
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: darkblue;
+    color: white;
+}
+
+body {
+    background-color: lightblue;
+}
+  
+body {
+    margin:25px;
+}
+
+div.polaroid {
+    width: 15rem;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+.consultora {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {font-variant-east-asian: 'verdana';
+    color:darkred;
+    font-size:50px;
+    font-style: italic;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+h2{
+    font-family:'arial';
+    color:darkblue;
+    font-size:27px;
+    text-align:center;
+}
+
+h5{
+    font-family:'verdana';
+    color:gray;
+    font-size: 18px;
+    text-align:center;
+}
+
+h6{
+    font-variant-east-asian:'verdana';
+    color:darkred; 
+    font-size: 40px;
+    font-style: italic;
+    text-align:center;
+}
+
+h7{
+    font-family:'arial';
+    color:darkblue;
+    font-size:27px;
+    text-align:left;
+}
+
+h8{
+    font-family:'arial';
+    color:darkred;
+    font-size: 20px;
+    text-align:center;
+} 
+
+p{
+     font-family:'arial';
+    color:darkslateblue;
+    font-size:24px;
+ }
