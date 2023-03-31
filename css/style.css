@@ -23,68 +23,68 @@ li {
     padding: 20px;
     background-color: teal;
     color: #fff;
-   }
-   .nav-links a {
+}
+.nav-links a {
     color: #fff;
-   }
-   /* LOGO */
-   .logo {
+}
+/* LOGO */
+.logo {
     font-size: 32px;
-   }
-   /* NAVBAR MENU */
-   .menu {
+}
+/* NAVBAR MENU */
+.menu {
     display: flex;
     gap: 1em;
     font-size: 18px;
-   }
-   .menu li:hover {
+}
+.menu li:hover {
     background-color: #4c9e9e;
     border-radius: 5px;
     transition: 0.3s ease;
-   }
-   .menu li {
+}
+.menu li {
     padding: 5px 14px;
-   }
-   /* MENU SUSPENSO */
-   .services {
+}
+/* MENU SUSPENSO */
+.services {
     position: relative; 
-   }
-   .dropdown {
+}
+.dropdown {
     background-color: rgb(1, 139, 139);
     padding: 1em 0;
     position: absolute; /*COM RELAÇÃO AOS PAIS*/
     display: none;
     border-radius: 8px;
     top: 35px;
-   }
-   .dropdown li + li {
+}
+.dropdown li + li {
     margin-top: 10px;
-   }
-   .dropdown li {
+}
+.dropdown li {
     padding: 0.5em 1em;
     width: 8em;
     text-align: center;
-   }
-   .dropdown li:hover {
+}
+.dropdown li:hover {
     background-color: #4c9e9e;
-   }
-   .services:hover .dropdown {
+}
+.services:hover .dropdown {
     display: block;
-   }
+}
 /* NAVBAR MENU RESPONSIVA*/
 /* CHECKBOX HACK */
 input[type=checkbox]{
     display: none;
-   } 
-   /*HAMBURGER MENU*/
-   .hamburger {
+} 
+/*HAMBURGER MENU*/
+.hamburger {
     display: none;
     font-size: 24px;
     user-select: none;
-   }
-   /* APLICAÇÃO MEDIA QUERIES */
-   @media (max-width: 768px) {
-   .menu { 
+}
+/* APLICAÇÃO MEDIA QUERIES */
+@media (max-width: 768px) {
+.menu { 
     display:none;
     position: absolute;
     background-color:teal;
@@ -92,37 +92,30 @@ input[type=checkbox]{
     left: 0;
     text-align: center;
     padding: 16px 0;
-   }
-   .menu li:hover {
+}
+.menu li:hover {
     display: inline-block;
     background-color:#4c9e9e;
     transition: 0.3s ease;
-   }
-   .menu li + li {
+}
+.menu li + li {
     margin-top: 12px;
-   }
-   input[type=checkbox]:checked ~ .menu{
+}
+input[type=checkbox]:checked ~ .menu{
     display: block;
-   }
-   .hamburger {
+}
+.hamburger {
     display: block;
-   }
-   .dropdown {
+}
+.dropdown {
     left: 50%;
     top: 30px;
     transform: translateX(35%);
-   }
-   .dropdown li:hover {
+}
+.dropdown li:hover {
     background-color: #4c9e9e;
-   }
-   }
-
-
-
-
-
-
-
+}
+}
 footer {
     text-align: center;
     padding: 3px;
